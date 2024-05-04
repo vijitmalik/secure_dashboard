@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  padding:0px;
+}
+.header{
+  color: whitesmoke;
+  background-color: cornflowerblue;
+  padding: 0 10px 10px 10px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  height:60px;
+}
+
+.header button, form button, .login-button{
+  background-color:black;
+  color:whitesmoke;
+  height: 30px;
+  width: 60px;
+}
+
+form button, .login-button{
+  background-color: rgb(158, 193, 247);
+  color: black;
+}
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+input, button{
+  height: 20px;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+
+input{
+  margin:5px;
+}
+
+button{
+  border: 2px solid gray;
+}
